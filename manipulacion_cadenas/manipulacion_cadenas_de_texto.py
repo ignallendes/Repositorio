@@ -35,4 +35,6 @@ print(" ".join(d))
 #Si hay conincidencias, se devuelve el indice de la primera concordancia, sino, devuelve -1
 print(a.find("Hola"))
 print(a.find("Que tal?"))
-
+#Podemos acotar la busqueda de la cadena:
+print(a.find("o",2))#Busca desde a[2]
+print(a.find("o",2,7))#No hay "o" entre a[2] y a[7]
