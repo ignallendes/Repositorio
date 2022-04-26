@@ -31,4 +31,8 @@ d = ["Hola","Mundo","Que tal?"]
 print("_".join(d))
 print(" ".join(d))
 
+#Podemos emplear "find" para buscar en un cadena
+#Si hay conincidencias, se devuelve el indice de la primera concordancia, sino, devuelve -1
+print(a.find("Hola"))
+print(a.find("Que tal?"))
 
