@@ -1,4 +1,4 @@
-#El operador "*" se puede emplear para repetir una cadena de texto miltiplicandola
+#El operador "*" se puede emplear para repetir una cadena de texto multiplicandola
 print("abc"*3)
 #Los string pueden verse como listas de caracteres
 a = "Hola Mundo"
@@ -38,3 +38,7 @@ print(a.find("Que tal?"))
 #Podemos acotar la busqueda de la cadena:
 print(a.find("o",2))#Busca desde a[2]
 print(a.find("o",2,7))#No hay "o" entre a[2] y a[7]
+
+#Entrada por consola "input"
+nombre = input("Introduzca aqui su nombre")
+print(f"Hola {nombre}!")
