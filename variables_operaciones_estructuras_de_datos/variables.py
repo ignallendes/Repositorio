@@ -42,7 +42,7 @@ str(12.1)   #Convertimos el dato de tipo float a string. Resultado ---> "12.1"
 int(True)   #Convertimos el dato de tipo bool a int. Resultado     ---> 1
 float("7.5")#Convertimos el dato de tipo str a float. Resultado    ---> 7.5
 
-#Para conocer el tipo de dato de una variable podemos emplear "type":
+# Para conocer el tipo de dato de una variable podemos emplear "type":
 type("7.5") #---> str
 type(10)    #---> int
 type(7.5)   #--->float
